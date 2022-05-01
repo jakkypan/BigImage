@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bind_service"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="绑定服务（同步putBinder）"
+        android:onClick="bindService"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/send_small"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:text="发送小图"
+        android:onClick="sendSmall"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/send_large"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:text="发送大图"
+        android:onClick="sendLarge"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>
+
